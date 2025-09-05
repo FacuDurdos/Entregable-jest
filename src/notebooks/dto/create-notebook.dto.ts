@@ -4,8 +4,8 @@ import { IsString, IsNotEmpty } from 'class-validator';
 export class CreateNotebookDto {
   @IsString()
   @IsNotEmpty()
-  title: string;
+  marca: string;
 
   @IsString()
-  content: string;
+  problema: string;
 }

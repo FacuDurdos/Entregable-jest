@@ -7,8 +7,8 @@ export class Notebook {
   id: number;
 
   @Column()
-  title: string;
+  marca: string;
 
   @Column({ nullable: true })
-  content: string;
+  problema: string;
 }
